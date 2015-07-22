@@ -21,7 +21,7 @@ __to start your local Kinesis, run:__
 
 `docker run -d -p 4567:4567  vsouza/kinesis-local -p 4567`
 
-*Feel free to add parameters:*
+*Feel free to add parameters: ( see Kinesalite [doc](https://github.com/mhart/kinesalite) )* 
 
 `docker run -d -p 4567:4567  vsouza/kinesis-local -p 4567 --createStreaMs 5`
 
