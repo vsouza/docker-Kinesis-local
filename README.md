@@ -11,6 +11,11 @@ Use Amazon Kinesis to collect and process large streams of data records in real 
 You'll create data-processing applications, known as Amazon Kinesis applications. A typical Amazon Kinesis application takes data from data generators called producers and puts it into an Amazon Kinesis stream as data records. These applications can use the Amazon Kinesis Client Library, and they can run on Amazon EC2 instances. The processed records can be sent to dashboards, used to generate alerts, dynamically change pricing and advertising strategies, or send data to a variety of other AWS services. For information about Amazon Kinesis features and pricing, see Amazon Kinesis.
 [AWS Kinesis Docs](http://docs.aws.amazon.com/kinesis/latest/dev/introduction.html)
 
+## What it uses
+
+ * NodeJS with Node Package Manager
+ * [Kinesalite](https://github.com/mhart/kinesalite) thanks to @mhart to make it possible.
+
 
 __to start your local Kinesis, run:__
 
