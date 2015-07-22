@@ -14,7 +14,7 @@ You'll create data-processing applications, known as Amazon Kinesis applications
 ## What it uses
 
  * __NodeJS__ with Node Package Manager
- * __[Kinesalite](https://github.com/mhart/kinesalite)__ - thanks to @mhart to make it possible.
+ * __[Kinesalite](https://github.com/mhart/kinesalite)__ - thanks to [@mhart](http://www.github.com/mhart) to make it possible.
 
 
 __to start your local Kinesis, run:__
