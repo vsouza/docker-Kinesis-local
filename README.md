@@ -1,6 +1,3 @@
-<img src="http://ypereirareis.github.io/assets/images/posts/docker.svg" />
-
-
 # Docker kinesis
 [![](https://badge.imagelayers.io/vsouza/kinesis-local:latest.svg)](https://imagelayers.io/?images=vsouza/kinesis-local:latest 'Get your own badge on imagelayers.io')
 
