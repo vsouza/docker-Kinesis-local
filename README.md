@@ -19,11 +19,11 @@ You'll create data-processing applications, known as Amazon Kinesis applications
 
 __to start your local Kinesis, run:__
 
-`docker run -d -p 4567:4567  vsouza/kinesis-local -p 4567`
+`docker run -d -p 4567:4567  vsouza/kinesis-local --port 4567`
 
 *Feel free to add parameters: ( see Kinesalite [doc](https://github.com/mhart/kinesalite) )* 
 
-`docker run -d -p 4567:4567  vsouza/kinesis-local -p 4567 --createStreaMs 5`
+`docker run -d -p 4567:4567  vsouza/kinesis-local --port 4567 --createStreaMs 5`
 
 ## License
 
