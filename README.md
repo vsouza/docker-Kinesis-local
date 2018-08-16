@@ -25,6 +25,19 @@ __to start your local Kinesis, run:__
 
 `docker run -d -p 4567:4567  vsouza/kinesis-local --port 4567 --createStreaMs 5`
 
+__to start kinesis inside compose, create docker-compose.yaml:__
+
+```
+version: '3.1'
+services:
+  kinesis:
+    image: vsouza/kinesis-local:latest
+    command: --port 4567
+    restart: always
+    ports:
+      - 4567:4567
+```
+
 ## License
 
 [MIT License](http://vsouza.mit-license.org/) © Vinicius Souza
